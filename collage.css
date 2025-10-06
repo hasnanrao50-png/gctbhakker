@@ -1,0 +1,234 @@
+
+
+body {
+    font-family:  Arial, sans-serif;
+    background-color: #f7f7f9;
+    color: #222;
+}
+
+
+.header {
+    background: linear-gradient(90deg, #2b1055, #7597de);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.logo img {
+    width: 120px;
+    border-radius: 10px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.nav a:hover {
+    color: #ffcc70;
+    transform: scale(1.2);
+     text-shadow: 0 0 30px rgba(245, 245, 244, 0.9);
+     border-bottom: 2px solid;
+}
+.main1 {
+    background: url("pick/image1.jpg");
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.main1 .welcome {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:  50px;
+    border-radius: 15px;
+}
+.main1 h1 {
+    font-size: 50px;
+    text-shadow: 0 0 20px #fff;
+}
+.main1 p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main2 {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding:  20px;
+}
+.main2 h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #ffcc70;
+}
+.main3 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.main3 .box {
+    width: 230px;
+    background-color: #16213e;
+    padding: 25px;
+    border-radius: 20px;
+}
+.main3 .box:hover {
+    background-color: #533483;
+    transform: scale(1.1);
+        transition: 0.5s;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+
+.main4 {
+    padding: 50px;
+    background-color: #fff;
+    font-size: 30px;
+    
+}
+.main4 h2 {
+    color: #2b1055;
+    margin-bottom: 20px;
+    text-shadow: 0 10px 10px rgba(51, 34, 106, 0.4);
+
+}
+
+.main4 ul {
+    font-size: 20px;
+    text-align: left;
+    max-width: 500px;
+    font-size: 18px;
+    color: #444;
+    line-height: 3;
+
+}
+
+.main5 {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 50px 20px;
+}
+.main5 h2 {
+    color: #230d46;
+    font-size: 35px;
+    margin-bottom: 30px;
+        text-shadow: 0 0 20px rgba(67, 17, 115, 0.9);
+
+
+}
+.main6 {
+    justify-content: center;
+    gap: 25px;
+}
+.main7{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px;
+}
+.course {
+    width: 280px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.course img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.course h3 {
+    padding: 15px;
+    background-color: #2b1055;
+    color: white;
+}
+.course:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(34, 72, 154, 0.8);
+        transition: 0.4s;
+
+}
+.main8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.main8 div{
+    width: 40%;
+    height: auto;
+    text-align: left;
+    justify-content: center;
+    padding-left: 70px;
+    line-height: 3;
+    background-color: white;
+}
+.main8 div input{
+    width: 70%;
+    height: 40px;
+}
+.main8 div button{
+      width: 70%;
+    height: 40px;
+    background:rgb(255, 115, 0) ;
+    font-weight: bold;
+    color: white;
+}
+.staff img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer {
+    background-color: #1a1a2e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+.footer div {
+
+    margin: 10px;
+}
+.footer h3 {
+    color: #ffcc70;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+}
+.footer li {
+    margin: 10px 0;
+}
+.footer button {
+    background-color:rgb(255, 115, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.footer button:hover {
+    background-color: white;
+    color: #2b1055;
+        transition: 0.3s;
+
+}
+.footer1 {
+    background-color: #0f3460;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
